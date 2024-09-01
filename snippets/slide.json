@@ -1,0 +1,86 @@
+{
+  "Call JS function on slide enter": {
+    "prefix": ".slide.actions.js",
+    "body": [
+        ".slide.actions.js(${1:myJSFunc()})"
+      ],
+      "description": "when slide is selected, call this function"
+  },
+  "Disable printing of slide": {
+    "prefix": ".slide.print.disable",
+    "body": [
+        ".slide.print.disable"
+      ],
+      "description": "slide with this flag will NOT be printed"
+  },
+  "Slide marked as print only": {
+    "prefix": ".slide.print.only",
+    "body": [
+        ".slide.print.only"
+      ],
+      "description": "slide with this flag will ONLY be printed"
+  },
+  "Set previous slide": {
+    "prefix": ".slide.link.previous",
+    "body": [
+        ".slide.link.previous(#${1:slideID}#)"
+      ],
+      "description": "when we go to previous slide, use this ID"
+  },
+  "Set next slide": {
+    "prefix": ".slide.link.next",
+    "body": [
+        ".slide.link.next(#${1:slideID}#)"
+      ],
+      "description": "when we go to next slide, use this ID"
+  },
+  "Set slide ID for links": {
+    "prefix": ".slide.link",
+    "body": [
+        ".slide.link(#${1:slideID}#)"
+      ],
+      "description": "Set slide ID for links"
+  },
+  "Enable overflow on slide": {
+    "prefix": ".slide.enable.overflow",
+    "body": [
+        ".slide.enable.overflow"
+      ],
+      "description": "Enable overflow on slide (if content is too long for slide it will be scrollable)"
+  },
+  "Set slide title": {
+    "prefix": ".slide.title",
+    "body": [
+        ".slide.title(${1:slide title})"
+      ],
+      "description": "Set slide title"
+  },
+  "Create transition on slide": {
+    "prefix": ".cut",
+    "body": [
+        ".cut"
+      ],
+      "description": "Create transition on slide"
+  },
+  "Create transition on slide with replace": {
+    "prefix": ".cut",
+    "body": [
+        ".cut{#${1:OldID}#}{#${2:NewID}#}"
+      ],
+      "description": "Create transition on slide with replace"
+  },
+  "Create transition on slide with x2 replace ": {
+    "prefix": ".cut",
+    "body": [
+        ".cut{#${1:OldID}#}{#${2:NewID}#}.cut{#${3:OldID}#}{#${4:NewID}#}"
+      ],
+      "description": "Create transition on slide with x2 replace"
+  },
+  "Create two slides in same page, clean content": {
+    "prefix": ".cut.clean",
+    "body": [
+        ".cut.clean"
+      ],
+      "description": "Create two slides"
+  }
+}

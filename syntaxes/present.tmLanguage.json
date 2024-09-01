@@ -1,0 +1,165 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "present",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#functions"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"name": "constant.language.present",
+			"match": "\\.={3,}"
+		},
+		{
+			"name": "entity.name.function.present",
+			"match": "\\.[a-zA-Z0-9]+\\s"
+		},
+		{
+			"name": "keyword.control.present",
+			"match": "\\.\\{"
+		}
+	],
+	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.double-dash.present",
+					"begin": "\\.//",
+					"end": "\\n"
+				}
+			]
+		},
+		"keywords": {
+			"patterns": [{
+				"name": "constant.language.present",
+				"match": "\\.(global|slide)\\.keep\\.page\\.print\\.on\\.cut\\b"
+			},{
+				"name": "constant.language.present",
+				"match": "((\\.global|\\.slide)\\.(hide|show)\\.page\\.number)\\b"
+			},{
+				"name": "constant.language.present",
+				"match": "\\.slide\\.print\\.disable\\n"
+			},{
+				"name": "constant.language.present",
+				"match": "\\.slide\\.print\\.only\\n"
+			},{
+				"name": "constant.language.present",
+				"match": "((\\.global|\\.slide)\\.enable\\.overflow)\\b"
+			},{
+				"name": "constant.language.present",
+				"match": "\\.(global|slide)\\.dash\\.is\\.transition"
+			},{
+				"name": "constant.language.present",
+				"match": "\\.slide\\.dash\\.disable\\.transition"
+			},{
+				"name": "keyword.control.present",
+				"match": "\\.(template)(\\s[a-zA-Z0-9_\\-]+\\n|\\.end)"
+			},{
+				"name": "keyword.control.present",
+				"match": "\\.(notes|admin|header|footer)(\\.end|\\n)"
+			},{
+				"name": "keyword.control.present",
+				"match": "\\.cut(\\.clean||\\b)"
+			},{
+				"name": "keyword.control.present",
+				"match": "\\.(center|raw|tabs|table|div|css|image)(\\.end|\\b)"
+			},{
+				"name": "keyword.control.present",
+				"match": "\\.slide\\.link(\\.previous|\\.next|)"
+			},{
+				"name": "keyword.control.present",
+				"match": "\\.link(\\{|\\()"
+			},{
+				"name": "keyword.control.present",
+				"match": "\\.(tr|td)\\n"
+			}]
+		},
+        "functions": {
+            "patterns": [{
+				"name": "entity.name.variable",
+				"match": "(|\\.slide)(\\.title\\b)"
+			},{
+				"name": "entity.name.variable",
+				"match": "(\\.global|\\.slide)\\.(font-size|background-color|background)\\b"
+			},{
+				"name": "entity.name.variable",
+				"match": "(\\.global|\\.slide)\\.terminal\\.(font-(color|size)|background-color)\\b"
+			},{
+				"name": "entity.name.variable",
+				"match": "(\\.global|\\.slide)\\.hide\\.run\\.button"
+			},{
+				"name": "entity.name.variable",				
+				"match": "\\.cast(\\.edit|\\.stream|\\.save\\(.*?\\)|\\.source\\(.*?\\)|\\.id\\(.*?\\)|\\.run\\(.*?\\)|\\.before\\(.*?\\)|.after\\(.*?\\)|.show\\(.*?\\)|\\.path\\(.*?\\)|\\.parallel\\(.*?\\)|\\.save\\{.*?\\}|\\.run\\{.*?\\}|\\.before\\{.*?\\}|.after\\{.*?\\}|.show\\{.*?\\}|.path\\{.*?\\}|.parallel\\{.*?\\}|.source\\{.*?\\}|.id\\{.*?\\})+"
+			},{
+				"name": "entity.name.variable",				
+				"match": "\\.api\\.endpoint\\(([^)]*)\\)(\\.path\\(.*?\\)|\\.run\\(.*?\\))+"
+			},{
+				"name": "entity.name.variable",				
+				"match": "\\.slide\\.actions\\.js\\b"
+			},{ 
+				"name": "entity.name.variable",				
+				"match": "\\.block(\\.edit|\\.stream|\\.lang\\(.*?\\)|\\.source\\(.*?\\)|\\.id\\(.*?\\)|\\.run\\(.*?\\)|\\.before\\(.*?\\)|.after\\(.*?\\)|.show\\(.*?\\)|\\.path\\(.*?\\)|\\.parallel\\(.*?\\)|\\.lang\\{.*?\\}|\\.run\\{.*?\\}|\\.before\\{.*?\\}|.after\\{.*?\\}|.show\\{.*?\\}|.path\\{.*?\\}|.parallel\\{.*?\\}|.source\\{.*?\\}|.id\\{.*?\\})+"
+			},{
+				"name": "entity.name.variable",
+				"match": "(\\.replace)(\\.after|)(\\{|\\()"
+			},{
+				"name": "entity.name.variable",
+				"match": "(\\.tab|\\.raw)(\\{|\\()"
+			},{
+				"name": "entity.name.variable",
+				"match": "\\.run\\{[0-9]+\\}\\([^)]+\\)"
+			},{
+				"name": "support.constant.media",
+				"begin": "(\\`\\`\\`)([a-zA-Z0-9]+)?",
+				"beginCaptures": {
+					"1": {
+						"name": "punctuation.definition.markdown"
+					},
+					"2": {
+						"name": "entity.name.function.present"
+					}
+				},
+				"end": "(\\`\\`\\`)",
+				"endCaptures": {
+					"1": {
+						"name": "punctuation.definition.markdown"
+					}
+				},
+				"patterns": [
+					{
+						"match": ".",
+						"name": "text.plain"
+					}
+				]
+			},
+			{
+				"name": "entity.name.variable",
+				"match": "(\\.bx)(\\{)"
+			}]
+        },
+		"strings": {
+			"patterns": [
+				{
+					"name": "string.quoted.single.present",
+					"match": "'[^\\n']+'"
+				},
+				{
+					"name": "string.quoted.double.present",
+					"match": "\"[^\\n']+\""
+				},{
+					"name": "constant.language.present",
+					"match": "\\#[a-zA-Z0-9]+\\#"
+				}
+			]
+		}
+	},
+	"scopeName": "source.present"
+}

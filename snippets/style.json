@@ -1,0 +1,212 @@
+{
+  "Global Font Size": {
+    "prefix": ".global.font-size",
+    "body": [
+        ".global.font-size(${1:5svh})"
+      ],
+      "description": "Set font size globally"
+  },
+  "Slide Font Size": {
+    "prefix": ".slide.font-size",
+    "body": [
+        ".slide.font-size(${1:5svh})"
+      ],
+      "description": "Set font size on this slide"
+  },
+  "Global Background": {
+    "prefix": ".global.background",
+    "body": [
+        ".global.background(${1:assets/image.png})"
+      ],
+      "description": "Set background image globally"
+  },
+  "Slide Background": {
+    "prefix": ".slide.background",
+    "body": [
+        ".slide.background(${1:assets/image.png})"
+      ],
+      "description": "Set background image on this slide"
+  },
+  "Global Background Color": {
+    "prefix": ".global.background-color",
+    "body": [
+        ".global.background-color(${1:white})"
+      ],
+      "description": "Set background color globally"
+  },
+  "Slide Background Color": {
+    "prefix": ".slide.background-color",
+    "body": [
+        ".slide.background-color(${1:white})"
+      ],
+      "description": "Set background color on this slide"
+  },
+  "RAW HTML data": {
+    "prefix": ".raw",
+    "body": [
+        ".raw{${1:HTML}}"
+      ],
+      "description": "inject raw HTML"
+  },
+  "RAW HTML data Block": {
+    "prefix": ".raw",
+    "body": [
+        ".raw\n${1:HTML}\n.raw.end"
+      ],
+      "description": "inject raw HTML"
+  },
+  "Tabs(2) Block": {
+    "prefix": ".tabs",
+    "body": [
+        ".tabs\n.tab{\"active\"}(${1:tab-name-1})\n${2:markdown}\n.tab{}(${3:tab-name-2})\n${4:markdown}\n.tabs.end"
+      ],
+      "description": "inject tabs"
+  },
+  "Tabs(3) Block": {
+    "prefix": ".tabs",
+    "body": [
+        ".tabs\n.tab{\"active\"}(${1:tab-name-1})\n${2:markdown}\n.tab{}(${3:tab-name-2})\n${4:markdown}\n.tab{}(${5:tab-name-3})\n${6:markdown}\n.tabs.end"
+      ],
+      "description": "inject tabs"
+  },
+  "Tabs(2) Block +Transitions": {
+    "prefix": ".tabs",
+    "body": [
+        ".slide.keep.page.print.on.cut\n.replace{#active#}(active)\n.replace{#empty#}()\n.replace{#tab1#}(active)\n.replace{#tab2#}()\n\n.tabs\n.tab{#tab1#}(${1:tab-name-1})\n${2:markdown}\n.tab{#tab2#}(${3:tab-name-2})\n${4:markdown}\n.tabs.end\n.cut{#tab1#}(#empty#).cut{#tab2#}(#active#)"
+      ],
+      "description": "inject tabs with added transitions"
+  },
+  "Tabs(3) Block +Transitions": {
+    "prefix": ".tabs",
+    "body": [
+        ".slide.keep.page.print.on.cut\n.replace{#active#}(active)\n.replace{#empty#}()\n.replace{#tab1#}(active)\n.replace{#tab2#}()\n.replace{#tab3#}()\n\n.tabs\n.tab{#tab1#}(${1:tab-name-1})\n${2:markdown}\n.tab{#tab2#}(${3:tab-name-2})\n${4:markdown}\n.tab{#tab3#}(${5:tab-name-3})\n${6:markdown}\n.tabs.end\n.cut{#tab1#}(#empty#).cut{#tab2#}(#active#)\n.cut{#active#}(#empty#).cut{#tab3#}(#active#)"
+      ],
+      "description": "inject tabs with added transitions"
+  },
+  "Center content": {
+    "prefix": ".center",
+    "body": [
+        ".center\n${1:markdown}\n.center.end"
+      ],
+      "description": "Center content"
+  },
+  "Image link": {
+    "prefix": ".image",
+    "body": [
+        ".image(link.png)"
+      ],
+      "description": "Image link"
+  },
+  "Image link with width": {
+    "prefix": ".image",
+    "body": [
+        ".image(link.png ${1:10}svw:)"
+      ],
+      "description": "Image link with width"
+  },
+  "Image link with height": {
+    "prefix": ".image",
+    "body": [
+        ".image(link.png :${1:10}svh)"
+      ],
+      "description": "Image link with height"
+  },
+  "Image link with size": {
+    "prefix": ".image",
+    "body": [
+        ".image(link.png ${1:10}svw:${2:10}svh)"
+      ],
+      "description": "Image link with size"
+  },
+  "CSS <span>": {
+    "prefix": [".span", ".css", ".style"],
+    "body": [
+        ".{${1:CSS}}(${2:markdown})"
+      ],
+      "description": "CSS styling"
+  },
+  "CSS <div>": {
+    "prefix": [".div", ".css", ".style"],
+    "body": [
+        ".div{${1:CSS}}(${2:markdown})"
+      ],
+      "description": "CSS styling using div"
+  },
+  "CSS <div> Block": {
+    "prefix": [".div", ".css", ".style"],
+    "body": [
+        ".css{${1:CSS}}\n${2:markdown}\n.css.end"
+      ],
+      "description": "CSS styling using div in block"
+  },
+  "Boxicons icon": {
+    "prefix": [".bx"],
+    "body": [
+        ".bx{${1:bx[ls]-name}}"
+      ],
+      "description": "Boxicons icon"
+  },
+  "Boxicons icon with color": {
+    "prefix": [".bx"],
+    "body": [
+        ".{color:${1:HTML-color}}(.bx{${2:bx[ls]-name}})"
+      ],
+      "description": "Boxicons icon"
+  },
+  "Boxicons icon with +(color,rotate-cw)": {
+    "prefix": [".bx"],
+    "body": [
+        ".{color:${1:HTML-color}}(.bx{${2:bx[ls]-name} rotate-cw})"
+      ],
+      "description": "Boxicons icon"
+  },
+  "Boxicons icon with +(color,rotate-ccw)": {
+    "prefix": [".bx"],
+    "body": [
+        ".{color:${1:HTML-color}}(.bx{${2:bx[ls]-name} rotate-ccw})"
+      ],
+      "description": "Boxicons icon"
+  },
+  "Global Terminal Font Size": {
+    "prefix": ".global.terminal.font-size",
+    "body": [
+        ".global.terminal.font-size(${1:5svh})"
+      ],
+      "description": "Set terminal font size globally"
+  },
+  "Slide Terminal Font Size": {
+    "prefix": ".slide.terminal.font-size",
+    "body": [
+        ".slide.terminal.font-size(${1:5svh})"
+      ],
+      "description": "Set terminal font size on this slide"
+  },
+  "Global Terminal Font Color": {
+    "prefix": ".global.terminal.font-color",
+    "body": [
+        ".global.terminal.font-color(${1:5svh})"
+      ],
+      "description": "Set terminal font color globally"
+  },
+  "Slide Terminal Font Color": {
+    "prefix": ".slide.terminal.font-color",
+    "body": [
+        ".slide.terminal.font-color(${1:5svh})"
+      ],
+      "description": "Set terminal font size on this slide"
+  },
+  "Global Terminal Background color": {
+    "prefix": ".global.terminal.background-color",
+    "body": [
+        ".global.terminal.background-color(${1:color})"
+      ],
+      "description": "Set background image globally"
+  },
+  "Slide Terminal Background color": {
+    "prefix": ".slide.terminal.background-color",
+    "body": [
+        ".slide.terminal.background-color(${1:color})"
+      ],
+      "description": "Set terminal background color on slide"
+  }
+}

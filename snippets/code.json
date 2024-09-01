@@ -1,0 +1,114 @@
+{
+  "Display code from file - simple": {
+    "prefix": ".block",
+    "body": [
+        ".block.source(${1:filename}).path(${3:/path/to/code})"
+      ],
+      "description": "Display code from file - simple"
+  },
+  "Display code from file": {
+    "prefix": ".block",
+    "body": [
+        ".block.source(${1:filename}).show(${2:0:1000}).path(${3:/path/to/code}).lang(${4:})"
+      ],
+      "description": "Display code from file - with all options"
+  },
+  "Display code from file - simple (golang)": {
+    "prefix": ".go.block",
+    "body": [
+        ".block.source(${1:main.go}).path(${3:/path/to/code})"
+      ],
+      "description": "Display code from file - simple"
+  },
+  "Display code from file (golang)": {
+    "prefix": ".go.block",
+    "body": [
+        ".block.source(${1:main.go}).show(${2:0:1000}).path(${3:/path/to/code}).lang(go)"
+      ],
+      "description": "Display code from file - with all options"
+  },
+  "Display code from file with editing enabled": {
+    "prefix": ".block.edit",
+    "body": [
+        ".block.edit.source(${1:filename}).show(${2:0:1000}).path(${3:/path/to/code}).lang(${4:lang})"
+      ],
+      "description": "Display code from file - with all options + allow editing"
+  },
+  "Run next block": {
+    "prefix": ".cast",
+    "body": [
+        ".cast.save(${1:filename}).run(${2:cmd})"
+      ],
+      "description": "Run next block - all options"
+  },
+  "Run next block (golang)": {
+    "prefix": ".go.cast",
+    "body": [
+        ".cast.save(${1:main.go}).run(${2:go run .})"
+      ],
+      "description": "Run next block - all options"
+  },
+  "Run next block +(edit)": {
+    "prefix": ".cast",
+    "body": [
+        ".cast.edit.save(${1:filename}).run(${2:cmd})"
+      ],
+      "description": "Run next block - all options"
+  },
+  "Run next block +(edit, golang)": {
+    "prefix": ".go.cast",
+    "body": [
+        ".cast.edit.save(${1:main.go}).run(${2:go run .}).before(${3:go mod init x})"
+      ],
+      "description": "Run next block - all options"
+  },
+  "Run next block +(stream, edit)": {
+    "prefix": ".cast",
+    "body": [
+        ".cast.stream.edit.save(${1:filename}).run(${2:cmd})"
+      ],
+      "description": "Run next block - all options"
+  },
+  "Run next block +(stream, edit, golang)": {
+    "prefix": ".go.cast",
+    "body": [
+        ".cast.stream.edit.save(${1:main.go}).run(${2:go run .}).before(${3:go mod init x})"
+      ],
+      "description": "Run next block - all options"
+  },
+  "Run next block full": {
+    "prefix": ".cast",
+    "body": [
+        ".cast.stream.edit.show{${1:0:1000}}.path(${2:/path/to/code}).save(${3:filename}).run(${4:cmd}).before(${5:cmd}).after(${6:cmd})"
+      ],
+      "description": "Run next block - all options"
+  },
+  "Run next block full (golang)": {
+    "prefix": ".go.cast",
+    "body": [
+        ".cast.stream.edit.show{${1:0:1000}}.path(${2:dir}).save(${3:main.go}).run(${4:go run .}).before(${5:go mod init x}).after(${6:})"
+      ],
+      "description": "Run next block - all options"
+  },
+  "Run code from folder": {
+    "prefix": ".cast",
+    "body": [
+        ".cast.path(${1:dir}).run(${2:cmd})"
+      ],
+      "description": "Run next block - all options"
+  },
+  "Run code from folder (golang)": {
+    "prefix": ".go.cast",
+    "body": [
+        ".cast.path(${1:dir}).run(${go run .})"
+      ],
+      "description": "Run next block - all options"
+  },
+  "Run specific command on index position": {
+    "prefix": ".run",
+    "body": [
+        ".run{${1:index}}(${2:markdown})"
+      ],
+      "description": "Run specific command on index position"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "Slide delimiter": {
+    "prefix": ".=",
+    "body": [
+        ".================================"
+      ],
+      "description": "Add slide delimiter"
+  },
+  "Title": {
+    "prefix": ".title",
+    "body": [
+        ".title(${1:Presentation Created with present})"
+      ],
+      "description": "Set the title of presentation, this will be seen in browser as tab name"
+  },
+  "Create APi endpoint": {
+    "prefix": ".api.endpoint",
+    "body": [
+        ".api.endpoint(${1:endpoint-path}).path(${2:dir}).run(${3:command})"
+      ],
+      "description": "Add slide delimiter"
+  }  ,
+  "Create link to slide": {
+    "prefix": ".link",
+    "body": [
+        ".link{${1:#slideID#}}(${2:markdown})"
+      ],
+      "description": "Add link to specific slide"
+  },
+  "Add Replace directive": {
+    "prefix": [".replace"],
+    "body": [
+        ".replace{#${1:ReplaceID}#}(${2:markdown})"
+      ],
+      "description": "Add Replace directive"
+  },
+  "Add Replace After directive": {
+    "prefix": [".replace"],
+    "body": [
+        ".replace.after{#${1:ReplaceID}#}(${2:markdown})"
+      ],
+      "description": "Add Replace After directive"
+  },
+  "Add Notes to slide": {
+    "prefix": [".notes"],
+    "body": [
+        ".notes\n${1:my notes}\n.notes.end"
+      ],
+      "description": "Add Notes to slide"
+  },
+  "Add Admin markdown": {
+    "prefix": [".admin"],
+    "body": [
+        ".admin\n${1:markdown}\n.admin.end"
+      ],
+      "description": "Add Admin markdown"
+  },
+  "Add Header markdown": {
+    "prefix": [".header"],
+    "body": [
+        ".header\n${1:markdown}\n.header.end"
+      ],
+      "description": "Add Header markdown"
+  },
+  "Add Footer markdown": {
+    "prefix": [".footer"],
+    "body": [
+        ".footer\n${1:markdown}\n.footer.end"
+      ],
+      "description": "Add Footer markdown"
+  },
+  "Enable transitions globally on -": {
+    "prefix": [".global.dash.is.transition"],
+    "body": [
+        ".global.dash.is.transition"
+      ],
+      "description": "Enable transitions globally on -"
+  },
+  "Enable transitions on slide on -": {
+    "prefix": [".slide.dash.is.transition"],
+    "body": [
+        ".slide.dash.is.transition"
+      ],
+      "description": "Enable transitions on slide on -"
+  },
+  "Disable transitions on slide on -": {
+    "prefix": [".slide.dash.disable.transition"],
+    "body": [
+        ".slide.dash.disable.transition"
+      ],
+      "description": "Disable transitions on slide on -"
+  }, 
+  "Hide run button globally": {
+    "prefix": [".global.hide.run.button"],
+    "body": [
+        ".global.hide.run.button"
+      ],
+      "description": "Hide run button globally"
+  },
+  "Hide run button on slide": {
+    "prefix": [".slide.hide.run.button"],
+    "body": [
+        ".slide.hide.run.button"
+      ],
+      "description": "Hide run button on slide"
+  },
+  "Show page number globally": {
+    "prefix": [".global.show.page.number"],
+    "body": [
+        ".global.show.page.number"
+      ],
+      "description": "Show page number globally"
+  },
+  "Show page number on slide": {
+    "prefix": [".slide.show.page.number"],
+    "body": [
+        ".slide.show.page.number"
+      ],
+      "description": "Show page number on slide"
+  },
+  "Hide page number globally": {
+    "prefix": [".global.hide.page.number"],
+    "body": [
+        ".global.hide.page.number"
+      ],
+      "description": "Hide page number globally"
+  },
+  "Hide page number on slide": {
+    "prefix": [".slide.hide.page.number"],
+    "body": [
+        ".slide.hide.page.number"
+      ],
+      "description": "Hide page number on slide"
+  },
+  "Keep page print on cut globally": {
+    "prefix": [".global.keep.page.print.on.cut"],
+    "body": [
+        ".global.keep.page.print.on.cut"
+      ],
+      "description": "Keep page print on cut globally"
+  },
+  "Keep page print on cut on slide": {
+    "prefix": [".slide.keep.page.print.on.cut"],
+    "body": [
+        ".slide.keep.page.print.on.cut"
+      ],
+      "description": "Keep page print on cut on slide"
+  }
+}
