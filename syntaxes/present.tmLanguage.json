@@ -61,7 +61,7 @@
 				"match": "\\.slide\\.dash\\.disable\\.transition"
 			},{
 				"name": "keyword.control.present",
-				"match": "\\.(template)(\\s[a-zA-Z0-9_\\-]+\\n|\\.end)"
+				"match": "\\.(template)(\\{.*?\\}(|\\(.*?\\))\\n|\\.end)"
 			},{
 				"name": "keyword.control.present",
 				"match": "\\.(notes|admin|header|footer)(\\.end|\\n)"

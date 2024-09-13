@@ -1,0 +1,9 @@
+.// create template with a name, data will be passed and used globally
+.template{name}
+{{.}}
+.template.end
+
+.// create template with a name, each variable will be named
+.template{name}(Var1, Var2)
+{{.Var1}} {{.Var2}}
+.template.end

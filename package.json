@@ -3,11 +3,11 @@
   "displayName": "present.slide",
   "description": "present file - markdown like presenting tool",
   "repository": {
-    "url": "github.com/oktalz/present-vscode-ext"
+    "url": "https://github.com/oktalz/present-vscode-ext"
   },
   "publisher": "ZlatkoBratkovic",
   "license": "ISC",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "icon": "assets/present.png",
   "engines": {
     "vscode": "^1.92.0"
@@ -46,6 +46,10 @@
       {
         "language": "present",
         "path": "./snippets/table.json"
+      },
+      {
+        "language": "present",
+        "path": "./snippets/template.json"
       }
     ],
     "languages": [
@@ -55,10 +59,10 @@
           "present"
         ],
         "extensions": [
-          ".slide"
+          ".slide", ".present"
         ],
         "filenames": [
-          ".slide"
+          ".slide", ".present"
         ],
         "icon": {
           "light": "./assets/present.png",

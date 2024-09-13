@@ -1,8 +1,8 @@
-# oktalz-present
+# present extension
 
-extension used  to provide syntax highlighting to tool [github.com/oktalz/present](https://github.com/oktalz/present)
+provides syntax highlighting for [github.com/oktalz/present](https://github.com/oktalz/present)
 
-WARNING: do note that this tool has not been released yet
+available both for [VSCode](https://marketplace.visualstudio.com/items?itemName=ZlatkoBratkovic.vscode-oktalz-present) and [VSCodium](https://open-vsx.org/extension/ZlatkoBratkovic/vscode-oktalz-present)
 
 ## Features
 

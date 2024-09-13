@@ -2,8 +2,11 @@
 
 All notable changes to the "slide" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.9.3]
 
-## [Unreleased]
+- template snippets
+
+
+- ## [0.9.2]
 
 - Initial release

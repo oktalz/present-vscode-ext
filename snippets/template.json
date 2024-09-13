@@ -1,0 +1,16 @@
+{
+  "Create template": {
+    "prefix": ".template",
+    "body": [
+        ".template{${1:name}}\n{{.}}\n.template.end"
+      ],
+      "description": "Create template"
+  },
+  "Create template with attributes": {
+    "prefix": ".template",
+    "body": [
+        ".template{${1:name}}(${2:Var1}, ${3:Var2})\n{{.${2:Var1}}} {{.${3:Var2}}}\n.template.end"
+      ],
+      "description": "Create template with attributes"
+  }
+}
