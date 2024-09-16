@@ -7,7 +7,7 @@
   },
   "publisher": "ZlatkoBratkovic",
   "license": "ISC",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "icon": "assets/present.png",
   "engines": {
     "vscode": "^1.92.0"

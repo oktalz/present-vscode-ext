@@ -1,27 +1,27 @@
 {
   "Table 1x2": {
-    "prefix": [".table"],
+    "prefix": [".table", "1x2"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.table.end"
       ],
       "description": "Table"
   },
   "Table 1x3": {
-    "prefix": [".table"],
+    "prefix": [".table", "1x3"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.td\nmarkdown-3\n.table.end"
       ],
       "description": "Table"
   },
   "Table 1x4": {
-    "prefix": [".table"],
+    "prefix": [".table", "1x4"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.td\nmarkdown-3\n.td\nmarkdown-4\n.table.end"
       ],
       "description": "Table"
   },
   "Table 1x5": {
-    "prefix": [".table"],
+    "prefix": [".table", "1x5"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.td\nmarkdown-3\n.td\nmarkdown-4\n.td\nmarkdown-5\n.table.end"
       ],
@@ -29,28 +29,28 @@
   },
 
   "Table 2x2": {
-    "prefix": [".table"],
+    "prefix": [".table", "2x2"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.tr\n.td\nmarkdown-3\n.td\nmarkdown-4\n.table.end"
       ],
       "description": "Table"
   },
   "Table 2x3": {
-    "prefix": [".table"],
+    "prefix": [".table", "2x3"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.td\nmarkdown-3\n.tr\n.td\nmarkdown-4\n.td\nmarkdown-5\n.td\nmarkdown-6\n.table.end"
       ],
       "description": "Table"
   },
   "Table 2x4": {
-    "prefix": [".table"],
+    "prefix": [".table", "2x4"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.td\nmarkdown-3\n.td\nmarkdown-4\n.tr\n.td\nmarkdown-5\n.td\nmarkdown-6\n.td\nmarkdown-7\n.td\nmarkdown-8\n.table.end"
       ],
       "description": "Table"
   },
   "Table 2x5": {
-    "prefix": [".table"],
+    "prefix": [".table", "2x5"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.td\nmarkdown-3\n.td\nmarkdown-4\n.td\nmarkdown-5\n.tr\n.td\nmarkdown-6\n.td\nmarkdown-7\n.td\nmarkdown-8\n.td\nmarkdown-9\n.td\nmarkdown-10\n.table.end"
       ],
@@ -58,56 +58,56 @@
   },
   
   "Table 3x2": {
-    "prefix": [".table"],
+    "prefix": [".table", "3x2"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.tr\n.td\nmarkdown-3\n.td\nmarkdown-4\n.tr\n.td\nmarkdown-5\n.td\nmarkdown-6\n.table.end"
       ],
       "description": "Table"    
   },
   "Table 3x3": {
-    "prefix": [".table"],
+    "prefix": [".table", "3x3"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.td\nmarkdown-3\n.tr\n.td\nmarkdown-4\n.td\nmarkdown-5\n.td\nmarkdown-6\n.tr\n.td\nmarkdown-7\n.td\nmarkdown-8\n.td\nmarkdown-9\n.table.end"
       ],
       "description": "Table"
   },
   "Table 3x4": {
-    "prefix": [".table"],
+    "prefix": [".table", "3x4"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.td\nmarkdown-3\n.td\nmarkdown-4\n.tr\n.td\nmarkdown-5\n.td\nmarkdown-6\n.td\nmarkdown-7\n.td\nmarkdown-8\n.tr\n.td\nmarkdown-9\n.td\nmarkdown-10\n.td\nmarkdown-11\n.td\nmarkdown-12\n.table.end"
       ],
       "description": "Table"
   },
   "Table 3x5": {
-    "prefix": [".table"],
+    "prefix": [".table", "3x5"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.td\nmarkdown-3\n.td\nmarkdown-4\n.td\nmarkdown-5\n.tr\n.td\nmarkdown-6\n.td\nmarkdown-7\n.td\nmarkdown-8\n.td\nmarkdown-9\n.td\nmarkdown-10\n.tr\n.td\nmarkdown-11\n.td\nmarkdown-12\n.td\nmarkdown-13\n.td\nmarkdown-14\n.td\nmarkdown-15\n.table.end"
     ],
     "description": "Table"
   },
   "Table 4x2": {
-    "prefix": [".table"],
+    "prefix": [".table", "4x2"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.tr\n.td\nmarkdown-3\n.td\nmarkdown-4\n.tr\n.td\nmarkdown-5\n.td\nmarkdown-6\n.tr\n.td\nmarkdown-7\n.td\nmarkdown-8\n.table.end"
     ],
     "description": "Table"
   },
   "Table 4x3": {
-    "prefix": [".table"],
+    "prefix": [".table", "4x3"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.td\nmarkdown-3\n.tr\n.td\nmarkdown-4\n.td\nmarkdown-5\n.td\nmarkdown-6\n.tr\n.td\nmarkdown-7\n.td\nmarkdown-8\n.td\nmarkdown-9\n.tr\n.td\nmarkdown-10\n.td\nmarkdown-11\n.td\nmarkdown-12\n.table.end"
     ],
     "description": "Table"
   },
   "Table 4x4": {
-    "prefix": [".table"],
+    "prefix": [".table", "4x4"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.td\nmarkdown-3\n.td\nmarkdown-4\n.tr\n.td\nmarkdown-5\n.td\nmarkdown-6\n.td\nmarkdown-7\n.td\nmarkdown-8\n.tr\n.td\nmarkdown-9\n.td\nmarkdown-10\n.td\nmarkdown-11\n.td\nmarkdown-12\n.tr\n.td\nmarkdown-13\n.td\nmarkdown-14\n.td\nmarkdown-15\n.td\nmarkdown-16\n.table.end"
     ],
     "description": "Table"
   },
   "Table 4x5": {
-    "prefix": [".table"],
+    "prefix": [".table", "4x5"],
     "body": [
         ".table\n.tr\n.td\nmarkdown-1\n.td\nmarkdown-2\n.td\nmarkdown-3\n.td\nmarkdown-4\n.td\nmarkdown-5\n.tr\n.td\nmarkdown-6\n.td\nmarkdown-7\n.td\nmarkdown-8\n.td\nmarkdown-9\n.td\nmarkdown-10\n.tr\n.td\nmarkdown-11\n.td\nmarkdown-12\n.td\nmarkdown-13\n.td\nmarkdown-14\n.td\nmarkdown-15\n.tr\n.td\nmarkdown-16\n.td\nmarkdown-17\n.td\nmarkdown-18\n.td\nmarkdown-19\n.td\nmarkdown-20\n.table.end"
     ],
