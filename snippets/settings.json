@@ -1,6 +1,6 @@
 {
   "Slide delimiter": {
-    "prefix": ".=",
+    "prefix": [".=","==","slide delimiter"],
     "body": [
         ".================================"
       ],

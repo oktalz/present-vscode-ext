@@ -1,6 +1,8 @@
-# Change Log
+# ChangeLog
 
-All notable changes to the "slide" extension will be documented in this file.
+## [0.9.5]
+
+- add slide delimiter to snippets
 
 ## [0.9.4]
 
@@ -10,6 +12,6 @@ All notable changes to the "slide" extension will be documented in this file.
 
 - template snippets
 
-- ## [0.9.2]
+## [0.9.2]
 
 - Initial release
