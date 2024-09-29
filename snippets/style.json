@@ -72,14 +72,14 @@
   "Tabs(2) Block +Transitions": {
     "prefix": ".tabs",
     "body": [
-        ".slide.keep.page.print.on.cut\n.replace{#active#}(active)\n.replace{#empty#}()\n.replace{#tab1#}(active)\n.replace{#tab2#}()\n\n.tabs\n.tab{#tab1#}(${1:tab-name-1})\n${2:markdown}\n.tab{#tab2#}(${3:tab-name-2})\n${4:markdown}\n.tabs.end\n.cut{#tab1#}(#empty#).cut{#tab2#}(#active#)"
+        ".slide.keep.page.print.on.transition\n.replace{#active#}(active)\n.replace{#empty#}()\n.replace{#tab1#}(active)\n.replace{#tab2#}()\n\n.tabs\n.tab{#tab1#}(${1:tab-name-1})\n${2:markdown}\n.tab{#tab2#}(${3:tab-name-2})\n${4:markdown}\n.tabs.end\n.transition{#tab1#}(#empty#).transition{#tab2#}(#active#)"
       ],
       "description": "inject tabs with added transitions"
   },
   "Tabs(3) Block +Transitions": {
     "prefix": ".tabs",
     "body": [
-        ".slide.keep.page.print.on.cut\n.replace{#active#}(active)\n.replace{#empty#}()\n.replace{#tab1#}(active)\n.replace{#tab2#}()\n.replace{#tab3#}()\n\n.tabs\n.tab{#tab1#}(${1:tab-name-1})\n${2:markdown}\n.tab{#tab2#}(${3:tab-name-2})\n${4:markdown}\n.tab{#tab3#}(${5:tab-name-3})\n${6:markdown}\n.tabs.end\n.cut{#tab1#}(#empty#).cut{#tab2#}(#active#)\n.cut{#active#}(#empty#).cut{#tab3#}(#active#)"
+        ".slide.keep.page.print.on.transition\n.replace{#active#}(active)\n.replace{#empty#}()\n.replace{#tab1#}(active)\n.replace{#tab2#}()\n.replace{#tab3#}()\n\n.tabs\n.tab{#tab1#}(${1:tab-name-1})\n${2:markdown}\n.tab{#tab2#}(${3:tab-name-2})\n${4:markdown}\n.tab{#tab3#}(${5:tab-name-3})\n${6:markdown}\n.tabs.end\n.transition{#tab1#}(#empty#).transition{#tab2#}(#active#)\n.transition{#active#}(#empty#).transition{#tab3#}(#active#)"
       ],
       "description": "inject tabs with added transitions"
   },

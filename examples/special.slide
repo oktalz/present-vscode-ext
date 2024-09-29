@@ -31,5 +31,5 @@ data
 data
 .tabs.end
 .// add transformers to the slide
-.cut{#tab1#}(#empty#).cut{#tab2#}(#active#)
-.cut{#active#}(#empty#).cut{#tab3#}(#active#)
+.transition{#tab1#}(#empty#).transition{#tab2#}(#active#)
+.transition{#active#}(#empty#).transition{#tab3#}(#active#)

@@ -40,7 +40,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "constant.language.present",
-				"match": "\\.(global|slide)\\.keep\\.page\\.print\\.on\\.cut\\b"
+				"match": "\\.(global|slide)\\.keep\\.page\\.print\\.on\\.transition\\b"
 			},{
 				"name": "constant.language.present",
 				"match": "((\\.global|\\.slide)\\.(hide|show)\\.page\\.number)\\b"
@@ -67,7 +67,7 @@
 				"match": "\\.(notes|admin|header|footer)(\\.end|\\n)"
 			},{
 				"name": "keyword.control.present",
-				"match": "\\.cut(\\.clean||\\b)"
+				"match": "\\.transition(\\.clean||\\b)"
 			},{
 				"name": "keyword.control.present",
 				"match": "\\.(center|raw|tabs|table|div|css|image)(\\.end|\\b)"

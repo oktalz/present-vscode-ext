@@ -133,16 +133,16 @@
       "description": "Hide page number on slide"
   },
   "Keep page print on cut globally": {
-    "prefix": [".global.keep.page.print.on.cut"],
+    "prefix": [".global.keep.page.print.on.transition"],
     "body": [
-        ".global.keep.page.print.on.cut"
+        ".global.keep.page.print.on.transition"
       ],
       "description": "Keep page print on cut globally"
   },
   "Keep page print on cut on slide": {
-    "prefix": [".slide.keep.page.print.on.cut"],
+    "prefix": [".slide.keep.page.print.on.transition"],
     "body": [
-        ".slide.keep.page.print.on.cut"
+        ".slide.keep.page.print.on.transition"
       ],
       "description": "Keep page print on cut on slide"
   }

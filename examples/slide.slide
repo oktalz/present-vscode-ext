@@ -16,7 +16,7 @@
 .link{#slideID#}(markdown)
 
 .// create a transition, allow modifiers of data
-.cut
-.cut.clean
-.cut{#OldID#}{#NewID#}
-.cut{#OldID#}{#NewID#}.cut{#OldID#}{#NewID#}
+.transition
+.transition.clean
+.transition{#OldID#}{#NewID#}
+.transition{#OldID#}{#NewID#}.transition{#OldID#}{#NewID#}

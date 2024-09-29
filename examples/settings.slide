@@ -19,9 +19,9 @@
 .global.hide.page.number
 .slide.hide.page.number
 
-.// flags for .cut do we show cut slides on print 
-.global.keep.page.print.on.cut
-.slide.keep.page.print.on.cut
+.// flags for .transition do we show cut slides on print 
+.global.keep.page.print.on.transition
+.slide.keep.page.print.on.transition
 
 .// add notes to slide (for presenter view)
 .notes

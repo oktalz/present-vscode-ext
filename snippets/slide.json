@@ -56,30 +56,30 @@
       "description": "Set slide title"
   },
   "Create transition on slide": {
-    "prefix": ".cut",
+    "prefix": ".transition",
     "body": [
-        ".cut"
+        ".transition"
       ],
       "description": "Create transition on slide"
   },
   "Create transition on slide with replace": {
-    "prefix": ".cut",
+    "prefix": ".transition",
     "body": [
-        ".cut{#${1:OldID}#}{#${2:NewID}#}"
+        ".transition{#${1:OldID}#}{#${2:NewID}#}"
       ],
       "description": "Create transition on slide with replace"
   },
   "Create transition on slide with x2 replace ": {
-    "prefix": ".cut",
+    "prefix": ".transition",
     "body": [
-        ".cut{#${1:OldID}#}{#${2:NewID}#}.cut{#${3:OldID}#}{#${4:NewID}#}"
+        ".transition{#${1:OldID}#}{#${2:NewID}#}.transition{#${3:OldID}#}{#${4:NewID}#}"
       ],
       "description": "Create transition on slide with x2 replace"
   },
   "Create two slides in same page, clean content": {
-    "prefix": ".cut.clean",
+    "prefix": ".transition.clean",
     "body": [
-        ".cut.clean"
+        ".transition.clean"
       ],
       "description": "Create two slides"
   }

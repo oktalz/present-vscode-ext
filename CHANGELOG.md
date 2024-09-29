@@ -1,5 +1,9 @@
 # ChangeLog
 
+## [0.9.6]
+
+- add transition support
+  
 ## [0.9.5]
 
 - add slide delimiter to snippets
