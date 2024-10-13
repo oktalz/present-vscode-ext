@@ -1,6 +1,6 @@
 # present extension
 
-<img src="https://github.com/oktalz/present-vscode-ext/blob/main/assets/present.png" width="300" />
+<img src="https://raw.githubusercontent.com/oktalz/present-vscode-ext/refs/heads/main/assets/present.png" width="300" />
 
 provides syntax highlighting for [github.com/oktalz/present](https://github.com/oktalz/present)
 

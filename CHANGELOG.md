@@ -1,5 +1,9 @@
 # ChangeLog
 
+## [0.9.7]
+
+- change readme image
+
 ## [0.9.6]
 
 - add transition support
