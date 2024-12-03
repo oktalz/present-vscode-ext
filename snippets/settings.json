@@ -145,5 +145,12 @@
         ".slide.keep.page.print.on.transition"
       ],
       "description": "Keep page print on cut on slide"
+  },
+  "Set aspect ratio (default 16x9)": {
+    "prefix": [".global.aspect-ratio"],
+    "body": [
+        ".global.aspect-ratio(${1:16x9})"
+      ],
+      "description": "Set aspect ratio (default 16x9)"
   }
 }

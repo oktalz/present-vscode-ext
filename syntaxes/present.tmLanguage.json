@@ -40,6 +40,9 @@
 		"keywords": {
 			"patterns": [{
 				"name": "constant.language.present",
+				"match": "\\.(global)\\.aspect-ratio\\b"
+			},{
+				"name": "constant.language.present",
 				"match": "\\.(global|slide)\\.keep\\.page\\.print\\.on\\.transition\\b"
 			},{
 				"name": "constant.language.present",
