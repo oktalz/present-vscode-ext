@@ -152,5 +152,12 @@
         ".global.aspect-ratio(${1:16x9})"
       ],
       "description": "Set aspect ratio (default 16x9)"
+  },
+  "Disable aspect ratio (default: enabled)": {
+    "prefix": [".global.disable.aspect-ratio"],
+    "body": [
+        ".global.disable.aspect-ratio"
+      ],
+      "description": "Disable aspect ratio (default: enabled)"
   }
 }

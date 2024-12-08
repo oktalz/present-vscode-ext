@@ -1,5 +1,13 @@
 # ChangeLog
 
+## [0.9.9]
+
+- add option to disable aspect ratio
+
+## [0.9.8]
+
+- add option to set aspect ratio
+
 ## [0.9.7]
 
 - change readme image
