@@ -65,14 +65,14 @@
   "Create transition on slide with replace": {
     "prefix": ".transition",
     "body": [
-        ".transition{#${1:OldID}#}{#${2:NewID}#}"
+        ".transition{#${1:OldID}#}(#${2:NewID}#)"
       ],
       "description": "Create transition on slide with replace"
   },
   "Create transition on slide with x2 replace ": {
     "prefix": ".transition",
     "body": [
-        ".transition{#${1:OldID}#}{#${2:NewID}#}.transition{#${3:OldID}#}{#${4:NewID}#}"
+        ".transition{#${1:OldID}#}(#${2:NewID}#).transition{#${3:OldID}#}(#${4:NewID}#)"
       ],
       "description": "Create transition on slide with x2 replace"
   },

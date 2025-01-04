@@ -1,5 +1,9 @@
 # ChangeLog
 
+## [0.9.10]
+
+- fixed transition helper
+
 ## [0.9.9]
 
 - add option to disable aspect ratio
