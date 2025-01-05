@@ -153,6 +153,20 @@
       ],
       "description": "Set aspect ratio (default 16x9)"
   },
+  "Set minimal aspect ratio": {
+    "prefix": [".global.aspect-ratio-min"],
+    "body": [
+        ".global.aspect-ratio-min(${1:16x10})"
+      ],
+      "description": "Set minimal aspect ratio"
+  },
+  "Set maximal aspect ratio": {
+    "prefix": [".global.aspect-ratio-max"],
+    "body": [
+        ".global.aspect-ratio-max(${1:16x8})"
+      ],
+      "description": "Set maximal aspect ratio"
+  },
   "Disable aspect ratio (default: enabled)": {
     "prefix": [".global.disable.aspect-ratio"],
     "body": [

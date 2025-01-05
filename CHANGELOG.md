@@ -3,6 +3,8 @@
 ## [0.9.10]
 
 - fixed transition helper
+- added .global.aspect-ratio-min
+- added .global.aspect-ratio-max
 
 ## [0.9.9]
 
