@@ -1,8 +1,19 @@
 .================================
 .// settings
 .title(seen as tab name)
+.author(author name)
 
-.// create an endpoint to API
+.// fixed aspect ratio
+.global.aspect-ratio(16x9)
+
+.// flexible aspect ratio
+.global.aspect-ratio-min(16x10)
+.global.aspect-ratio-max(2x1)
+
+.// disable aspect ratio
+.global.disable.aspect-ratio
+
+.// create an endpoint to API with a command to execute on it
 .api.endpoint(endpoint-path).path(dir).run(command)
 
 .// run specific command on index position of command on slide (index starts at 1)

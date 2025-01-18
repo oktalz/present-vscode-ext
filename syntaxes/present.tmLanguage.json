@@ -94,6 +94,9 @@
 				"match": "(|\\.slide)(\\.title\\b)"
 			},{
 				"name": "entity.name.variable",
+				"match": "(\\.author\\b)"
+			},{
+				"name": "entity.name.variable",
 				"match": "(\\.global|\\.slide)\\.(font-size|background-color|background)\\b"
 			},{
 				"name": "entity.name.variable",

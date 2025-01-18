@@ -1,5 +1,9 @@
 # ChangeLog
 
+## [0.9.11]
+
+- added .author option
+
 ## [0.9.10]
 
 - fixed transition helper
