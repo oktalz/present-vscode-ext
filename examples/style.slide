@@ -10,6 +10,11 @@
 .slide.background(assets/images/golang-back-empty.png)
 .global.background-color(#FFFFFF)
 .slide.background-color(#FFFFFF)
+.slide.css{background: linear-gradient(to bottom, #000000 1%,rgb(8, 50, 112) 70%);}
+.slide.css{background: linear-gradient(135deg, #000000 , rgb(8, 50, 112) );}
+.slide.css{background-image: radial-gradient(circle, rgb(8, 50, 112) 20%, #000000 100%);}
+.slide.css{background-image: radial-gradient(circle at bottom center, rgb(8, 50, 112) 20%, #000000 100%);}
+
 
 .// enable overflow on slide, scrollbar will appear if content is longer
 .slide.enable.overflow

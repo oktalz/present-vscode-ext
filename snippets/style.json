@@ -208,5 +208,12 @@
         ".slide.terminal.background-color(${1:color})"
       ],
       "description": "Set terminal background color on slide"
+  },
+  "Slide CSS": {
+    "prefix": ".slide.css",
+    "body": [
+        ".slide.css{${1:css}}"
+      ],
+      "description": "Set css for whole slide"
   }
 }

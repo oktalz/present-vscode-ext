@@ -1,5 +1,9 @@
 # ChangeLog
 
+## [0.9.12]
+
+- added .slide.css{} support
+
 ## [0.9.11]
 
 - added .author option
