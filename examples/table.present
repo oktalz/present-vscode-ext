@@ -24,3 +24,12 @@ markdown-5
 .td
 markdown-6
 .table.end
+
+.// 1x2 with style
+.table
+.tr{color: red; font-size:6svh;}
+.td{color: blue}
+markdown-1
+.td{border: 1px solid black;}
+markdown-2
+.table.end

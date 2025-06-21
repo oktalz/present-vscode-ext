@@ -1,5 +1,9 @@
 # ChangeLog
 
+## [0.9.13]
+
+- added example for styling tables (.td, .tr)
+
 ## [0.9.12]
 
 - added .slide.css{} support
