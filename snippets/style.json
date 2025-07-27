@@ -83,10 +83,24 @@
       ],
       "description": "inject tabs with added transitions"
   },
-  "Center content": {
+  "Center content - default(flex)": {
     "prefix": ".center",
     "body": [
         ".center\n${1:markdown}\n.center.end"
+      ],
+      "description": "Center content"
+  },
+  "Center content - flex": {
+    "prefix": ".center.flex",
+    "body": [
+        ".center.flex\n${1:markdown}\n.center.end"
+      ],
+      "description": "Center content"
+  },
+  "Center content - noflex": {
+    "prefix": ".center.noflex",
+    "body": [
+        ".center.noflex\n${1:markdown}\n.center.end"
       ],
       "description": "Center content"
   },
