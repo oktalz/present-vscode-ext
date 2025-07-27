@@ -1,5 +1,10 @@
 # ChangeLog
 
+## [0.9.14]
+
+- added .slide.css{css}
+- added .center.flex, .center.noflex
+
 ## [0.9.13]
 
 - added example for styling tables (.td, .tr)

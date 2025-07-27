@@ -97,10 +97,7 @@
 				"match": "(\\.author\\b)"
 			},{
 				"name": "entity.name.variable",
-				"match": "(\\.global|\\.slide)\\.(font-size|background-color|background)\\b"
-			},{
-				"name": "entity.name.variable",
-				"match": "(\\.global|\\.slide)\\.{css}\\b"
+				"match": "(\\.global|\\.slide)\\.(font-size|background-color|background|css)\\b"
 			},{
 				"name": "entity.name.variable",
 				"match": "(\\.global|\\.slide)\\.terminal\\.(font-(color|size)|background-color)\\b"
